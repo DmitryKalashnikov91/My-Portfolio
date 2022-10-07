@@ -9,7 +9,7 @@ export const getStaticProps = async () => {
     try {
         const links = await axios.get(`${API_URL}/links`).then(({ data }) => data);
         const me = await axios.get(`${API_URL}/me`).then(({ data }) => data);
-        if (!links && !me) {
+        if (!links || !me) {
             return {
                 notFound: true,
             };
@@ -25,6 +25,7 @@ export const getStaticProps = async () => {
     } catch {
         return {
             props: null,
+            revalidate: null,
         };
     }
 };
