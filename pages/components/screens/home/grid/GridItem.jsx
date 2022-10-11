@@ -2,7 +2,7 @@ import styles from './Grid.module.scss';
 
 const GridItem = ({ item }) => {
     return (
-        <a href={item.link} rel='noopener' target='_blank' className={styles.item}>
+        <a href={item.link} rel='noopener noreferrer' target='_blank' className={styles.item}>
             <div
                 className={styles.gradient}
                 style={{
