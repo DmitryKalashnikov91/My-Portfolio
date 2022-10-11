@@ -14,7 +14,6 @@ export const getStaticProps = async () => {
                 notFound: true,
             };
         }
-
         return {
             props: {
                 links,
@@ -24,8 +23,11 @@ export const getStaticProps = async () => {
         };
     } catch {
         return {
-            props: null,
-            revalidate: null,
+            props: {
+                links: null,
+                me: null,
+            },
+            revalidate: 60,
         };
     }
 };

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Grid.module.scss';
 
 const GridItem = ({ item }) => {
@@ -7,9 +6,14 @@ const GridItem = ({ item }) => {
             <div
                 className={styles.gradient}
                 style={{
-                    backgroundImage: `liner-gradient(to right, ${item.gradient.from} 0%, ${item.gradient.to} 51%, ${item.gradient.from} 100%`,
+                    backgroundImage: `linear-gradient(to right, ${item.gradient.from} 0%, ${item.gradient.to} 51%, ${item.gradient.from} 100%)`,
                 }}>
-                <img className={styles.svg} src={item.icon.path} alt='' width={item.icon.width} />
+                <img
+                    className={styles.svg}
+                    src={item.icon.path}
+                    alt='link'
+                    width={item.icon.width}
+                />
             </div>
             <div className={styles.title}>{item.title}</div>
         </a>

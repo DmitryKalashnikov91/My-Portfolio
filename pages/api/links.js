@@ -15,8 +15,8 @@ const links = [
     {
         _id: 'link_2',
         icon: {
-            path: '/icons/boltaeva.svg',
-            width: 115,
+            path: '/icons/bg.webp',
+            width: 160,
         },
         gradient: {
             from: '#fc5dff',
@@ -48,7 +48,7 @@ const links = [
             from: '#76acfd',
             to: '#6ed0ff',
         },
-        link: 'https://mfs-11.getcourse.ru/public/files/177331/492/fecad3e6eaf1318e52ee7f3f3d9ade75.png?e=1665140399&s=rDWYikhqqt3IPRtAgoVY1A',
+        link: 'https://drive.google.com/file/d/1JTAHDmN7f03nhgVhuBp58K_iCavZ3ABF/view?usp=sharing',
         title: 'My certificate',
     },
     {
