@@ -13,7 +13,7 @@ const AboutMe = ({ me }) => {
                     width={160}
                     height={165}
                     className={styles.image}
-                    alt={me.siteName}
+                    alt='avatar'
                     quality={100}
                 />
             </div>
@@ -25,7 +25,7 @@ const AboutMe = ({ me }) => {
                 <a href='tel:+9999152567'>+7 999 915 25 67</a>
             </article>
             <EmailButton />
-            <DescButton description={me.description} />
+            {<DescButton description={me.description} />}
         </div>
     );
 };
