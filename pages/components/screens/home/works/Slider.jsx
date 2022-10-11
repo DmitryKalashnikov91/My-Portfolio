@@ -66,14 +66,13 @@ const Slider = () => {
                     <h1>It's a life</h1>
                     <p>Basketball</p>
                 </div>
-                <div
-                    style={{ background: 'linear-gradient(221.87deg, #705161 1%, #47213b 128%);' }}>
+                <div style={{ background: 'linear-gradient(221.87deg, #705161 1%, #47213b 128%)' }}>
                     <h1>Enjoy the moment</h1>
                     <p>Basketball</p>
                 </div>
                 <div
                     style={{
-                        background: 'linear-gradient(220.16deg, #444026 -8%, #3f2805 138%);',
+                        background: 'linear-gradient(220.16deg, #444026 -8%, #3f2805 138%)',
                     }}>
                     <h1>Love this Game</h1>
                     <p>Basketball</p>
