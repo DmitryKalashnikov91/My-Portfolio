@@ -1,4 +1,4 @@
-import { ArrowUp } from '../../ui/arrowUp/ArrowUp';
+import { ArrowUp } from '../../../../app/arrowUp/ArrowUp';
 import Circles from '../../ui/circles/Circles';
 import MetaTitle from '../../ui/MetaTitle';
 import AboutMe from './about-me/AboutMe';
