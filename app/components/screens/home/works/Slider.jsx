@@ -8,10 +8,7 @@ const Slider = () => {
     let container;
     let mainSlide;
     let slidesCount;
-    // const sidebar = document.querySelector('.sidebar')
-    // const container = document.querySelector('.container')
-    // const mainSlide = document.querySelector('.main-slide')
-    // const slidesCount = mainSlide.querySelectorAll('div').length
+
     let activeSlideIndex = 0;
 
     useEffect(() => {

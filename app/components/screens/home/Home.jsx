@@ -1,11 +1,11 @@
-import React from 'react';
 import { ArrowUp } from '../../ui/arrowUp/ArrowUp';
 import Circles from '../../ui/circles/Circles';
 import MetaTitle from '../../ui/MetaTitle';
-import Works from './works/Works';
 import AboutMe from './about-me/AboutMe';
 import Grid from './grid/Grid';
 import styles from './Home.module.scss';
+import Gallery from './works/Gallery';
+import Slider from './works/Slider';
 
 const Home = ({ links, me }) => {
     return (
@@ -16,7 +16,10 @@ const Home = ({ links, me }) => {
                 <Grid links={links} />
             </div>
             <Circles />
-            <Works />
+
+            <h2>My first projects:</h2>
+            <Gallery />
+            <Slider />
             <ArrowUp />
         </section>
     );
