@@ -4,8 +4,8 @@ import MetaTitle from '../../ui/MetaTitle';
 import AboutMe from './about-me/AboutMe';
 import Grid from './grid/Grid';
 import styles from './Home.module.scss';
-import Gallery from './works/Gallery';
-import Slider from './works/Slider';
+// import Gallery from './works/Gallery';
+// import Slider from './works/Slider';
 
 const Home = ({ links, me }) => {
     return (
@@ -18,8 +18,8 @@ const Home = ({ links, me }) => {
             <Circles />
 
             <h2>My first projects:</h2>
-            <Gallery />
-            <Slider />
+            {/* <Gallery /> */}
+            {/* <Slider /> */}
             <ArrowUp />
         </section>
     );
