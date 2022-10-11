@@ -1,6 +1,6 @@
 import styles from './AboutMe.module.scss';
 import Image from 'next/image';
-import { APP_URL } from '../../../../constants';
+import { APP_URL } from '../../../../../app/constants';
 import EmailButton from './email-button/EmailButton';
 import DescButton from './email-button/desc-button/DescButton';
 

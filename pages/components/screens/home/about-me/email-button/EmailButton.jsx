@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './EmailButton.module.scss';
-import { APP_URL } from '../../../../../constants';
+import { APP_URL } from '../../../../../../app/constants';
 
 const EmailButton = () => {
     return (

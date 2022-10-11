@@ -84,7 +84,7 @@ const links = [
             width: 84,
         },
         gradient: {
-            from: '#000',
+            from: '#00008B',
             to: '#808080',
         },
         link: 'https://github.com/DmitryKalashnikov91',
