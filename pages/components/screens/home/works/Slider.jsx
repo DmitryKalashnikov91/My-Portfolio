@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Image from 'next/image';
 import styles from './Slider.module.scss';
 
 const Slider = () => {
@@ -63,7 +64,7 @@ const Slider = () => {
                 </div>
                 <div
                     style={{ background: 'linear-gradient(215.32deg, #030303 -1%, #020101 124%)' }}>
-                    <h1>It's a life</h1>
+                    <h1>It is a life</h1>
                     <p>Basketball</p>
                 </div>
                 <div style={{ background: 'linear-gradient(221.87deg, #705161 1%, #47213b 128%)' }}>
@@ -102,10 +103,10 @@ const Slider = () => {
             </div>
             <div className={styles.controls}>
                 <button className={styles.down_button} id='down'>
-                    <img src='/icons/arrow-down.svg' alt='down' />
+                    <Image src='/icons/arrow-down.svg' alt='down' layout='fill' />
                 </button>
                 <button className={styles.up_button} id='up'>
-                    <img src='/icons/arrow-up.svg' alt='up' />
+                    <Image src='/icons/arrow-up.svg' alt='up' layout='fill' />
                 </button>
             </div>
         </div>
