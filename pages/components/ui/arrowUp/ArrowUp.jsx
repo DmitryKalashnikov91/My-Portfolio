@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 import styles from './ArrowUp.module.scss';
@@ -24,7 +25,7 @@ const ArrowUp = () => {
         <>
             {scrollTop && (
                 <button className={styles.ArrowUp} onClick={scrollUp}>
-                    <img src='/icons/scrollUp.svg' alt='up' />
+                    <Image src='/icons/scrollUp.svg' alt='up' width={25} height={30} />
                 </button>
             )}
         </>

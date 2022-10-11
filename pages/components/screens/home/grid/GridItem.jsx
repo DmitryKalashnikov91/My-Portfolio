@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './Grid.module.scss';
 
 const GridItem = ({ item }) => {
@@ -8,11 +9,12 @@ const GridItem = ({ item }) => {
                 style={{
                     backgroundImage: `linear-gradient(to right, ${item.gradient.from} 0%, ${item.gradient.to} 51%, ${item.gradient.from} 100%)`,
                 }}>
-                <img
+                <Image
                     className={styles.svg}
                     src={item.icon.path}
                     alt='link'
                     width={item.icon.width}
+                    height={100}
                 />
             </div>
             <div className={styles.title}>{item.title}</div>
