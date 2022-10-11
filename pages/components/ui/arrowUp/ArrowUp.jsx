@@ -23,11 +23,11 @@ const ArrowUp = () => {
     };
     return (
         <>
-            {scrollTop && (
+            {scrollTop ? (
                 <button className={styles.ArrowUp} onClick={scrollUp}>
                     <Image src='/icons/scrollUp.svg' alt='up' width={25} height={30} />
                 </button>
-            )}
+            ) : null}
         </>
     );
 };
