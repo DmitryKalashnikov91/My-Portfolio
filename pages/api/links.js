@@ -84,8 +84,8 @@ const links = [
             width: 84,
         },
         gradient: {
-            from: '#e53935',
-            to: '#e35d5b',
+            from: '#000',
+            to: '#808080',
         },
         link: 'https://github.com/DmitryKalashnikov91',
         title: 'All projects on GIT',
@@ -97,8 +97,8 @@ const links = [
             width: 75,
         },
         gradient: {
-            from: '#FF385C',
-            to: '#dd2e63',
+            from: '#3EA6EA',
+            to: '#2179c1',
         },
         link: 'https://vk.com/id70942768',
         title: 'My VK',
