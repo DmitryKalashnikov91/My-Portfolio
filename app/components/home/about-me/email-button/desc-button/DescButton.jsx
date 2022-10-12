@@ -1,5 +1,5 @@
 import React from 'react';
-import { useOutside } from '../../../../../../../app/hooks/useOutside';
+import { useOutside } from '../../../../../../app/hooks/useOutside';
 import styles from './DescButton.module.scss';
 import cn from 'classnames';
 import parse from 'html-react-parser';

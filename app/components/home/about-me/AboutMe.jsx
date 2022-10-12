@@ -1,6 +1,6 @@
 import styles from './AboutMe.module.scss';
 import Image from 'next/image';
-import { APP_URL } from '../../../../../app/constants';
+import { APP_URL } from '../../../../app/constants';
 import EmailButton from './email-button/EmailButton';
 import DescButton from './email-button/desc-button/DescButton';
 
@@ -9,7 +9,7 @@ const AboutMe = ({ me }) => {
         <div className={styles.me}>
             <div className={styles['image-wrapper']}>
                 <Image
-                    src={`${APP_URL}/avatar.jpg`}
+                    src={`/avatar.jpg`}
                     width={160}
                     height={165}
                     className={styles.image}
@@ -19,7 +19,7 @@ const AboutMe = ({ me }) => {
             </div>
             <div className={styles.heading}>
                 <span>Frontend React developer </span>
-                <Image src={`${APP_URL}/icons/verified.svg`} alt='' height={16} width={16} />
+                <Image src={`/icons/verified.svg`} alt='' height={16} width={16} />
             </div>
             <article>
                 <a href='tel:+9999152567'>+7 999 915 25 67</a>

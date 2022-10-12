@@ -32,4 +32,4 @@ const ArrowUp = () => {
     );
 };
 
-export { ArrowUp };
+export default ArrowUp;
