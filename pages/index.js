@@ -5,7 +5,7 @@ import { API_URL } from '../app/constants';
 export default function HomePage(props) {
     return <Home {...props} />;
 }
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     try {
         const links = await axios.get(`${API_URL}/links.json`).then(({ data }) => data);
         const me = await axios.get(`${API_URL}/me.json`).then(({ data }) => data);
@@ -19,7 +19,6 @@ export const getStaticProps = async () => {
                 links,
                 me,
             },
-            revalidate: 60,
         };
     } catch {
         return {
@@ -27,7 +26,6 @@ export const getStaticProps = async () => {
                 links: null,
                 me: null,
             },
-            revalidate: 60,
         };
     }
 };
