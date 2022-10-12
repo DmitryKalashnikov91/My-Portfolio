@@ -1,6 +1,5 @@
 import styles from './AboutMe.module.scss';
 import Image from 'next/image';
-import { APP_URL } from '../../../../app/constants';
 import EmailButton from './email-button/EmailButton';
 import DescButton from './email-button/desc-button/DescButton';
 
@@ -9,7 +8,7 @@ const AboutMe = ({ me }) => {
         <div className={styles.me}>
             <div className={styles['image-wrapper']}>
                 <Image
-                    src={`/avatar.jpg`}
+                    src={`/avatar.jpeg`}
                     width={160}
                     height={165}
                     className={styles.image}
