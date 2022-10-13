@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: false,
     swcMinify: true,
-    images: { domains: ['localhost'] },
+    images: { domains: ['localhost', 'console.firebase.google.com'] },
 
     env: {
         APP_URL: process.env.REACT_APP_URL,
