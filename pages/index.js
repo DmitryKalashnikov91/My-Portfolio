@@ -7,8 +7,8 @@ export default function HomePage(props) {
 }
 export const getServerSideProps = async () => {
     try {
-        const links = await axios.get(`${API_URL}/links.json`).then(({ data }) => data);
-        const me = await axios.get(`${API_URL}/me.json`).then(({ data }) => data);
+        const links = await axios.get(`${API_URL}/links`).then(({ data }) => data);
+        const me = await axios.get(`${API_URL}/me`).then(({ data }) => data);
         if (!links || !me) {
             return {
                 notFound: true,
