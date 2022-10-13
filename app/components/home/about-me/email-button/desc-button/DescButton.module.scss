@@ -2,6 +2,7 @@
 
 .parent {
 	@apply absolute top-5 right-5;
+	
 	@include media(tablet) {
 		@apply top-2 right-2;
 	}
@@ -14,15 +15,23 @@
 		@include media(mobile) {
 			@apply px-3 py-1.5;
 		}
+		
 
 		&.active {
 			@apply bg-black;
+			
 		}
 	}
 
 	> article {
 		@apply animate-scaleIn absolute right-0 top-10 bg-bgColor text-white text-sm px-4 text-left;
-
+		.btn_lang {
+			color: red;
+			position: absolute;
+			top: 0;
+			right: 10%;
+		}
+		padding-top: 15%;
 		width: 28rem;
 		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 

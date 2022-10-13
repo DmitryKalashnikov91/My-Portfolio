@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 10vh;
+    background-color: rgb(39, 15, 15);
+    opacity: 0.5;
+    text-align: center;
+    padding: 10% 0 15% 0;
+    > p {
+        font-size: 20px;
+        color: white;
+    }
+}
