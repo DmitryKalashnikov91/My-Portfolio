@@ -7,8 +7,22 @@ export default function HomePage(props) {
 }
 export const getStaticProps = async () => {
     try {
-        const links = await axios.get(`${API_URL}/links`).then(({ data }) => data);
-        const me = await axios.get(`${API_URL}/me`).then(({ data }) => data);
+        const links = await axios
+            .get(`${API_URL}/links`)
+            .then(({ data }) => data)
+            .catch((error) => {
+                if (error) {
+                    return error.message;
+                }
+            });
+        const me = await axios
+            .get(`${API_URL}/me`)
+            .then(({ data }) => data)
+            .catch((error) => {
+                if (error) {
+                    return error.message;
+                }
+            });
         if (!links && !me) {
             return {
                 notFound: true,
