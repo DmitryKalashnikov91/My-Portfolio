@@ -7,8 +7,14 @@ export default function HomePage(props) {
 }
 export const getStaticProps = async () => {
     try {
-        const links = await axios.get(`${API_URL}/links`).then(async ({ data }) => await data);
-        const me = await axios.get(`${API_URL}/me`).then(async ({ data }) => await data);
+        const links = await axios
+            .get(`${API_URL}/links`)
+            .then(async ({ data }) => await data)
+            .catch((err) => console.log(err.message));
+        const me = await axios
+            .get(`${API_URL}/me`)
+            .then(async ({ data }) => await data)
+            .catch((err) => console.log(err.message));
         if (!links) {
             return { notfound: true };
         }
@@ -21,10 +27,7 @@ export const getStaticProps = async () => {
         };
     } catch {
         return {
-            props: {
-                links: null,
-                me: null,
-            },
+            props: null,
         };
     }
 };
