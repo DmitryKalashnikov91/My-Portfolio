@@ -5,16 +5,13 @@ import { API_URL } from '../app/constants';
 export default function HomePage(props) {
     return <Home {...props} />;
 }
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
     try {
-        const links = await axios
-            .get(`${API_URL}/links`)
-            .then(async ({ data }) => await data)
-            .catch((err) => console.log(err.message));
-        const me = await axios
-            .get(`${API_URL}/me`)
-            .then(async ({ data }) => await data)
-            .catch((err) => console.log(err.message));
+        const resLinks = await axios.get(`${API_URL}/links`);
+        const links = resLinks.data;
+        const resMe = await axios.get(`${API_URL}/me`);
+        const me = resMe.data;
+
         if (!links) {
             return { notfound: true };
         }
