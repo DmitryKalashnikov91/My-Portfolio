@@ -6,37 +6,14 @@ export default function HomePage(props) {
     return <Home {...props} />;
 }
 export const getStaticProps = async () => {
-    try {
-        const links = await axios
-            .get(`${API_URL}/links`)
-            .then(({ data }) => data)
-            .catch((error) => {
-                if (error) {
-                    return error.message;
-                }
-            });
-        const me = await axios
-            .get(`${API_URL}/me`)
-            .then(({ data }) => data)
-            .catch((error) => {
-                if (error) {
-                    return error.message;
-                }
-            });
-        if (!links && !me) {
-            return {
-                notFound: true,
-            };
-        }
-        return {
-            props: {
-                links,
-                me,
-            },
-        };
-    } catch {
-        return {
-            props: null,
-        };
-    }
+    const links = await axios.get(`${API_URL}/links`).then(async ({ data }) => await data);
+    const me = await axios.get(`${API_URL}/me`).then(async ({ data }) => await data);
+
+    return {
+        props: {
+            links,
+            me,
+        },
+        revalidate: 60,
+    };
 };
