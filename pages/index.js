@@ -27,7 +27,10 @@ export const getStaticProps = async () => {
         };
     } catch {
         return {
-            props: null,
+            props: {
+                links,
+                me,
+            },
         };
     }
 };
