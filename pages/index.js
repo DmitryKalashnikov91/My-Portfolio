@@ -23,6 +23,11 @@ export const getServerSideProps = async () => {
             },
         };
     } catch {
-        return { props: null };
+        return {
+            props: {
+                links,
+                me,
+            },
+        };
     }
 };
