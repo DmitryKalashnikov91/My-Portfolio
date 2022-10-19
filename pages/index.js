@@ -11,7 +11,6 @@ export const getServerSideProps = async () => {
         const links = resLinks.data;
         const resMe = await axios.get(`${API_URL}/me`);
         const me = resMe.data;
-        console.log(links);
         if (!links) {
             return {
                 notFound: true,
