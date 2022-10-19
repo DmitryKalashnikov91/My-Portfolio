@@ -13,8 +13,8 @@ const Home = ({ links, me }) => {
         <section className={styles.section}>
             <MetaTitle title='Portfolio | Kalasnikov' />
             <div className={styles.container}>
-                <AboutMe me={me} />
-                <Grid links={links} />
+                {me ? <AboutMe me={me} /> : 'loading...'}
+                {links ? <Grid links={links} /> : 'loading...'}
             </div>
             <Circles />
 
