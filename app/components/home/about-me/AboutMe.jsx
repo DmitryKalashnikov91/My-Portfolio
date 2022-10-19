@@ -10,27 +10,33 @@ const AboutMe = ({ me }) => {
         setMeDesc(me[0].description);
     }, []);
     return (
-        <div className={styles.me}>
-            <div className={styles['image-wrapper']}>
-                <Image
-                    src={`/avatar.jpeg`}
-                    width={160}
-                    height={165}
-                    className={styles.image}
-                    alt='avatar'
-                    quality={100}
-                />
-            </div>
-            <div className={styles.heading}>
-                <span>Frontend React developer </span>
-                <Image src={`/icons/verified.svg`} alt='' height={16} width={16} />
-            </div>
-            <article>
-                <a href='tel:+9999152567'>+7 999 915 25 67</a>
-            </article>
-            <EmailButton />
-            {<DescButton description={meDesc} />}
-        </div>
+        <>
+            {me ? (
+                <div className={styles.me}>
+                    <div className={styles['image-wrapper']}>
+                        <Image
+                            src={`/avatar.jpeg`}
+                            width={160}
+                            height={165}
+                            className={styles.image}
+                            alt='avatar'
+                            quality={100}
+                        />
+                    </div>
+                    <div className={styles.heading}>
+                        <span>Frontend React developer </span>
+                        <Image src={`/icons/verified.svg`} alt='' height={16} width={16} />
+                    </div>
+                    <article>
+                        <a href='tel:+9999152567'>+7 999 915 25 67</a>
+                    </article>
+                    <EmailButton />
+                    {<DescButton description={meDesc} />}
+                </div>
+            ) : (
+                <h2>Loading...</h2>
+            )}
+        </>
     );
 };
 
