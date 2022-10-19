@@ -4,6 +4,7 @@ import styles from './Grid.module.scss';
 import GridItem from './GridItem';
 
 const Grid = ({ links }) => {
+    console.log(links);
     return (
         <>
             {links ? (
