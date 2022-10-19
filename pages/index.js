@@ -5,7 +5,7 @@ import { API_URL } from '../app/constants';
 export default function HomePage(props) {
     return <Home {...props} />;
 }
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     try {
         const resLinks = await axios.get(`${API_URL}/links`);
         const links = resLinks.data;
