@@ -21,7 +21,7 @@ export const getServerSideProps = async () => {
                 links,
                 me,
             },
-            revalidate: 1,
+            revalidate: 6,
         };
     } catch {
         return {
@@ -29,7 +29,6 @@ export const getServerSideProps = async () => {
                 links: null,
                 me: null,
             },
-            revalidate: 1,
         };
     }
 };
