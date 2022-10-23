@@ -16,7 +16,7 @@ const AboutMe = ({ me }) => {
                     <div className={styles['image-wrapper']}>
                         <Image
                             src={`/avatar.jpeg`}
-                            width={160}
+                            width={152}
                             height={165}
                             className={styles.image}
                             alt='avatar'
@@ -25,7 +25,7 @@ const AboutMe = ({ me }) => {
                     </div>
                     <div className={styles.heading}>
                         <span>Frontend React developer </span>
-                        <Image src={`/icons/verified.svg`} alt='' height={16} width={16} />
+                        <Image src={`/icons/verified.svg`} alt='ok' height={16} width={16} />
                     </div>
                     <article>
                         <a href='tel:+9999152567'>+7 999 915 25 67</a>

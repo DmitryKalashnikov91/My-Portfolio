@@ -10,7 +10,7 @@ const EmailButton = () => {
                 rel='noopener noreferrer'
                 title='kobe-24-8@mail.ru'>
                 <span>
-                    <Image src={`/icons/email.svg`} width={18} alt='button' height={18} />
+                    <Image src={`/icons/email.svg`} width={18} alt='mail' height={18} />
                 </span>
             </a>
         </div>
