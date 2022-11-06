@@ -19,7 +19,7 @@ const Slider = () => {
         container = document.querySelector('#container');
         mainSlide = document.querySelector('#main-slide');
         slidesCount = mainSlide.getElementsByTagName('div').length;
-        sidebar.style.top = `-${(slidesCount - 1) * 60}vh`;
+        sidebar.style.top = `-${(slidesCount - 1) * 60 + 0.02 }vh`;
         upBtn.addEventListener('click', () => {
             changeSlide('up');
         });
@@ -47,7 +47,7 @@ const Slider = () => {
                 }
             }
             const height = container.clientHeight;
-            mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`;
+            mainSlide.style.transform = `translateY(-${activeSlideIndex * height }px)`;
             sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`;
         }
     }, []);
