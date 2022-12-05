@@ -23,7 +23,7 @@ const DescButton = ({ description }) => {
                 <span>About me</span>
             </button>
             {isShow && (
-                <article>
+                <article className='z-20'>
                     <button className={styles.btn_lang} onClick={toggleLang}>
                         {btnLang}
                     </button>
