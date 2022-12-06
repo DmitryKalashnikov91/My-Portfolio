@@ -17,7 +17,7 @@ const AboutMe = ({ me }) => {
                         <Image
                             src={`/avatar.jpeg`}
                             width={152}
-                            height={165}
+                            height={175}
                             className={styles.image}
                             alt='avatar'
                             quality={100}
