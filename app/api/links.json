@@ -2,15 +2,15 @@
     {
      "_id": "link_1",
      "icon": {
-      "path": "/icons/graduate.svg",
-      "width": 76
+      "path": "/icons/logo2.jpeg",
+      "width": 100
      },
      "gradient": {
       "from": "#13E780",
       "to": "#00bbd5"
      },
-     "link": "https://github.com/DmitryKalashnikov91/Deploy-hotel",
-     "title": "My graduation project on Git"
+     "link": "http://фонд-наш-мир.рф/",
+     "title": "My current project"
     },
     {
      "_id": "link_2",
