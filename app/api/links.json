@@ -10,7 +10,33 @@
       "to": "#00bbd5"
      },
      "link": "http://фонд-наш-мир.рф/",
-     "title": "My current project"
+     "title": "My current project (Fullstack: React, NodeJS, Express, MongoDB, Bootstrap, Docker...)"
+    },
+    {
+     "_id": "link_1.1",
+     "icon": {
+      "path": "/icons/spa-alex.jpg",
+      "width": 100
+     },
+     "gradient": {
+      "from": "#13E780",
+      "to": "#00bbd5"
+     },
+     "link": "https://spa-alex.ru",
+     "title": "Massage-site on Next"
+    },
+    {
+     "_id": "link_1.2",
+     "icon": {
+      "path": "/icons/nsp.png",
+      "width": 100
+     },
+     "gradient": {
+      "from": "#13E780",
+      "to": "#00bbd5"
+     },
+     "link": "https://healthwith-nsp.ru",
+     "title": "Market. (Wordpress with Elementor)"
     },
     {
      "_id": "link_2",
@@ -49,7 +75,7 @@
          "to": "#fb7185"
         },
         "link": "https://dmitrykalashnikov91.github.io/cars-hw/",
-        "title": "Homepage landing"
+        "title": "Homepage landing (Angular)"
     },
     {
         "_id": "link_5",
@@ -62,7 +88,7 @@
          "to": "#f87171"
         },
         "link": "https://dmitrykalashnikov91.github.io/lending-proc24/",
-        "title": "Tests landing"
+        "title": "Tests landing (HTML, CSS)"
     },
     {
         "_id": "link_6",
