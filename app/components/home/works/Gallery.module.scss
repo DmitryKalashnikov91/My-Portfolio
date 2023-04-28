@@ -1,39 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
-
+@import '../../../../app/assets/styles/media';
 
 .container {
   font-family: 'Muli', sans-serif;
   align-items: center;
   display: flex;
   height: 60vh;
-  justify-content: center;
   padding: 0 15% 0 15%;
-
-
-  .slide {
-  height: 60vh;
-  border-radius: 20px;
-  margin: 10px;
-  cursor: pointer;
-  color: #fff;
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
   transition: all 500ms ease-in-out;
-  box-shadow: inset 0 0 30px black, 0 0 0 black;
-    transition: all 0.3s ease-in-out;
-   
-    > h3  {
-      position: absolute;
-      font-size: 24px;
-      bottom: 20px;
-      left: 20px;
-      margin: 0;
-      opacity: 0;
-      color: red;
+    @include media(mobile) {
+      padding: 0;
     }
+
+    .slide {
+      height: 60vh;
+      border-radius: 20px;
+      margin: 10px;
+      cursor: pointer;
+      color: #fff;
+      flex: 1;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      box-shadow: inset 0 0 30px black, 0 0 0 black;
+      transition: all 0.3s ease-in-out;
+   
+          > h3  {
+            position: absolute;
+            font-size: 24px;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            opacity: 0;
+            color: red;
+          }
   }
 
 .slide:hover {
