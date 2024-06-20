@@ -1,184 +1,172 @@
 [
-    {
-     "_id": "link_1",
-     "icon": {
-      "path": "/icons/logo2.jpeg",
-      "width": 100
-     },
-     "gradient": {
-      "from": "#13E780",
-      "to": "#00bbd5"
-     },
-     "link": "http://фонд-наш-мир.рф/",
-     "title": "My current project (Fullstack: React, NodeJS, Express, MongoDB, Bootstrap, Docker...)"
-    },
-    {
-     "_id": "link_1.1",
-     "icon": {
-      "path": "/icons/spa-alex.jpg",
-      "width": 100
-     },
-     "gradient": {
-      "from": "#13E780",
-      "to": "#00bbd5"
-     },
-     "link": "https://spa-alex.ru",
-     "title": "Massage-site on Next"
-    },
-    {
-     "_id": "link_1.2",
-     "icon": {
-      "path": "/icons/nsp.png",
-      "width": 100
-     },
-     "gradient": {
-      "from": "#13E780",
-      "to": "#00bbd5"
-     },
-     "link": "https://healthwith-nsp.ru",
-     "title": "Market. (Wordpress with Elementor)"
-    },
-    {
-     "_id": "link_2",
-     "icon": {
-      "path": "/icons/cosmetic.svg",
-      "width": 160
-     },
-     "gradient": {
-      "from": "#fc5dff",
-      "to": "#5dfdff"
-     },
-     "link": "https://boltaeva-market-1jepxe6ll-dmitrykalashnikov91.vercel.app/",
-     "title": "Lending market"
-    },
-    {
-        "_id": "link_3",
-        "icon": {
-         "path": "/icons/tasks.svg",
-         "width": 75
-        },
-        "gradient": {
-         "from": "#3EA6EA",
-         "to": "#2179c1"
-        },
-        "link": "https://learn-typescript-three.vercel.app/",
-        "title": "Learn Typescript project"
-    },
-    {
-        "_id": "link_4",
-        "icon": {
-         "path": "/icons/car.svg",
-         "width": 75
-        },
-        "gradient": {
-         "from": "#6366f1",
-         "to": "#fb7185"
-        },
-        "link": "https://dmitrykalashnikov91.github.io/cars-hw/",
-        "title": "Homepage landing (Angular)"
-    },
-    {
-        "_id": "link_5",
-        "icon": {
-         "path": "/icons/gas.svg",
-         "width": 75
-        },
-        "gradient": {
-         "from": "#52525b",
-         "to": "#f87171"
-        },
-        "link": "https://dmitrykalashnikov91.github.io/lending-proc24/",
-        "title": "Tests landing (HTML, CSS)"
-    },
-    {
-        "_id": "link_6",
-        "icon": {
-         "path": "/icons/gallery.svg",
-         "width": 75
-        },
-        "gradient": {
-         "from": "#3EA6EA",
-         "to": "#2179c1"
-        },
-        "link": "https://codepen.io/dmitrykalashnikov91/pen/rNvKVaw",
-        "title": "Gallery by grid on codepen"
-    },
-    {
-     "_id": "link_7",
-     "icon": {
-      "path": "/icons/cv.svg",
-      "width": 80
-     },
-     "gradient": {
-      "from": "#FEAC5E",
-      "to": "#4BC0C8"
-     },
-     "link": "https://dmitrykalashnikov91.github.io/cv/",
-     "title": "My CV"
-    },
-    {
-     "_id": "link_8",
-     "icon": {
-      "path": "/icons/certificate.svg",
-      "width": 80
-     },
-     "gradient": {
-      "from": "#76acfd",
-      "to": "#6ed0ff"
-     },
-     "link": "https://drive.google.com/file/d/1JTAHDmN7f03nhgVhuBp58K_iCavZ3ABF/view?usp=sharing",
-     "title": "My certificate"
-    },
-    {
-     "_id": "link_9",
-     "icon": {
-      "path": "/icons/school.svg",
-      "width": 150
-     },
-     "gradient": {
-      "from": "#c659ff",
-      "to": "#ff3f4d"
-     },
-     "link": "https://result.school/?utm_source=telegram&utm_medium=kuhnya&utm_campaign=sold_out",
-     "title": "School where i studied"
-    },
-    {
-     "_id": "link_10",
-     "icon": {
-      "path": "/icons/vs-code.svg",
-      "width": 80
-     },
-     "gradient": {
-      "from": "#22d3ee",
-      "to": "#a78bfa"
-     },
-     "link": "https://github.com/DmitryKalashnikov91/fast-company-Fullstack",
-     "title": "My learn project on GIT"
-    },
-    {
-     "_id": "link_11",
-     "icon": {
-      "path": "/icons/future.svg",
-      "width": 84
-     },
-     "gradient": {
-      "from": "#00008B",
-      "to": "#808080"
-     },
-     "link": "https://github.com/DmitryKalashnikov91",
-     "title": "All projects on GIT"
-    },
-    {
-     "_id": "link_12",
-     "icon": {
-      "path": "/icons/vk.svg",
-      "width": 75
-     },
-     "gradient": {
-      "from": "#3EA6EA",
-      "to": "#2179c1"
-     },
-     "link": "https://vk.com/id70942768",
-     "title": "My VK"
-    }
+	{
+		"_id": "link_1",
+		"icon": {
+			"path": "/icons/logo2.jpeg",
+			"width": 100
+		},
+		"gradient": {
+			"from": "#13E780",
+			"to": "#00bbd5"
+		},
+		"link": "http://фонд-наш-мир.рф/",
+		"title": "My current project (Fullstack: React, NodeJS, Express, MongoDB, Bootstrap, Docker...)"
+	},
+	{
+		"_id": "link_1.1",
+		"icon": {
+			"path": "/icons/spa-alex.jpg",
+			"width": 100
+		},
+		"gradient": {
+			"from": "#13E780",
+			"to": "#00bbd5"
+		},
+		"link": "https://spa-alex.ru",
+		"title": "Massage-site on Next"
+	},
+
+	{
+		"_id": "link_2",
+		"icon": {
+			"path": "/icons/cosmetic.svg",
+			"width": 160
+		},
+		"gradient": {
+			"from": "#fc5dff",
+			"to": "#5dfdff"
+		},
+		"link": "https://boltaeva-market-1jepxe6ll-dmitrykalashnikov91.vercel.app/",
+		"title": "Lending market"
+	},
+	{
+		"_id": "link_3",
+		"icon": {
+			"path": "/icons/tasks.svg",
+			"width": 75
+		},
+		"gradient": {
+			"from": "#3EA6EA",
+			"to": "#2179c1"
+		},
+		"link": "https://learn-typescript-three.vercel.app/",
+		"title": "Learn Typescript project"
+	},
+	{
+		"_id": "link_4",
+		"icon": {
+			"path": "/icons/car.svg",
+			"width": 75
+		},
+		"gradient": {
+			"from": "#6366f1",
+			"to": "#fb7185"
+		},
+		"link": "https://dmitrykalashnikov91.github.io/cars-hw/",
+		"title": "Homepage landing (Angular)"
+	},
+	{
+		"_id": "link_5",
+		"icon": {
+			"path": "/icons/gas.svg",
+			"width": 75
+		},
+		"gradient": {
+			"from": "#52525b",
+			"to": "#f87171"
+		},
+		"link": "https://dmitrykalashnikov91.github.io/lending-proc24/",
+		"title": "Tests landing (HTML, CSS)"
+	},
+	{
+		"_id": "link_6",
+		"icon": {
+			"path": "/icons/gallery.svg",
+			"width": 75
+		},
+		"gradient": {
+			"from": "#3EA6EA",
+			"to": "#2179c1"
+		},
+		"link": "https://codepen.io/dmitrykalashnikov91/pen/rNvKVaw",
+		"title": "Gallery by grid on codepen"
+	},
+	{
+		"_id": "link_7",
+		"icon": {
+			"path": "/icons/cv.svg",
+			"width": 80
+		},
+		"gradient": {
+			"from": "#FEAC5E",
+			"to": "#4BC0C8"
+		},
+		"link": "https://dmitrykalashnikov91.github.io/cv/",
+		"title": "My CV"
+	},
+	{
+		"_id": "link_8",
+		"icon": {
+			"path": "/icons/certificate.svg",
+			"width": 80
+		},
+		"gradient": {
+			"from": "#76acfd",
+			"to": "#6ed0ff"
+		},
+		"link": "https://drive.google.com/file/d/1JTAHDmN7f03nhgVhuBp58K_iCavZ3ABF/view?usp=sharing",
+		"title": "My certificate"
+	},
+	{
+		"_id": "link_9",
+		"icon": {
+			"path": "/icons/school.svg",
+			"width": 150
+		},
+		"gradient": {
+			"from": "#c659ff",
+			"to": "#ff3f4d"
+		},
+		"link": "https://result.school/?utm_source=telegram&utm_medium=kuhnya&utm_campaign=sold_out",
+		"title": "School where i studied"
+	},
+	{
+		"_id": "link_10",
+		"icon": {
+			"path": "/icons/vs-code.svg",
+			"width": 80
+		},
+		"gradient": {
+			"from": "#22d3ee",
+			"to": "#a78bfa"
+		},
+		"link": "https://github.com/DmitryKalashnikov91/fast-company-Fullstack",
+		"title": "My learn project on GIT"
+	},
+	{
+		"_id": "link_12",
+		"icon": {
+			"path": "/icons/vk.svg",
+			"width": 75
+		},
+		"gradient": {
+			"from": "#3EA6EA",
+			"to": "#2179c1"
+		},
+		"link": "https://vk.com/id70942768",
+		"title": "My VK"
+	},
+	{
+		"_id": "link_11",
+		"icon": {
+			"path": "/icons/future.svg",
+			"width": 84
+		},
+		"gradient": {
+			"from": "#00008B",
+			"to": "#808080"
+		},
+		"link": "https://github.com/DmitryKalashnikov91",
+		"title": "All projects on GIT"
+	}
 ]
