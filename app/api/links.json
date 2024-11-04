@@ -25,9 +25,22 @@
 		"link": "https://spa-fili.ru",
 		"title": "Massage-site on Next"
 	},
-
 	{
 		"_id": "link_2",
+		"icon": {
+			"path": "/icons/burger.png",
+			"width": 160
+		},
+		"gradient": {
+			"from": "#fc6dff",
+			"to": "#4dfdff"
+		},
+		"link": "https://menu1314.vercel.app/",
+		"title": "Menu 13/14"
+	},
+
+	{
+		"_id": "link_2.1",
 		"icon": {
 			"path": "/icons/cosmetic.svg",
 			"width": 160
